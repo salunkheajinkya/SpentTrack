@@ -1,0 +1,14 @@
+  [1m[35mSQL (0.3ms)[0m  [1m[35mSET search_path TO public /*application='SpendTrack'*/[0m
+  [1m[35m (170.9ms)[0m  [1m[35mCREATE DATABASE "spend_track_development" ENCODING = 'unicode' /*application='SpendTrack'*/[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[35mSET search_path TO public /*application='SpendTrack'*/[0m
+  [1m[35m (95.9ms)[0m  [1m[35mCREATE DATABASE "spend_track_test" ENCODING = 'unicode' /*application='SpendTrack'*/[0m
+Started GET "/" for 127.0.0.1 at 2026-11-21 20:25:27 +0530
+  [1m[35m (10.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY) /*application='SpendTrack'*/[0m
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL) /*application='SpendTrack'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='SpendTrack'*/[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/acer/.rbenv/versions/3.3.6/lib/ruby/gems/3.3.0/gems/railties-8.0.5.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/acer/.rbenv/versions/3.3.6/lib/ruby/gems/3.3.0/gems/railties-8.0.5.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | GC: 0.0ms)
+Completed 200 OK in 52ms (Views: 9.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.9ms)
+
+
