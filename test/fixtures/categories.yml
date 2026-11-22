@@ -1,9 +1,9 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  category_type: MyString
+  name: Food
+  category_type: expense
 
 two:
-  name: MyString
-  category_type: MyString
+  name: Salary
+  category_type: income
